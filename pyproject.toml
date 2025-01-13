@@ -1,0 +1,20 @@
+[project]
+name = "meme_generator_flow"
+version = "0.1.0"
+description = "meme-generator-flow using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai[tools]>=0.95.0,<1.0.0",
+]
+
+[project.scripts]
+kickoff = "meme_generator_flow.main:kickoff"
+plot = "meme_generator_flow.main:plot"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "flow"

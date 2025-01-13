@@ -1,0 +1,16 @@
+generate_meme:
+  description: >
+    Generate an image that encapsulates the provided meme concept:
+    1. Generate the base image according to format specifications
+    2. Apply all visual elements and effects as specified
+    3. Add text with proper styling and placement
+    4. Ensure proper resolution and aspect ratio
+    5. Optimize image quality and file size
+    6. Apply any necessary watermarks or branding
+    7. Generate variations if needed
+    -----------
+    Here are the meme specifications:
+    {meme_idea}
+  expected_output: >
+    A meme image
+  agent: meme_generator

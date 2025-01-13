@@ -1,0 +1,22 @@
+generate_meme_idea:
+  description: >
+    Based on the provided meme idea {meme_topic}:
+    1. Select the optimal visual style and format
+    2. Design the layout and composition
+    3. Choose appropriate fonts and text placement
+    4. Optimize visual elements for various platforms
+    5. Ensure the final product maintains the original concept's humor and appeal
+  expected_output: >
+    Analyze the provided topic {meme_topic} and generate a meme concept that:
+    1. Has viral potential
+    2. Is culturally relevant
+    3. Has humor appeal
+    4. Is easily understandable
+    5. Can be quickly consumed
+    Create a detailed description of the meme including:
+    - Core concept
+    - Visual elements
+    - Text elements
+    - Expected emotional response
+    - Target audience
+  agent: meme_idea_generator
