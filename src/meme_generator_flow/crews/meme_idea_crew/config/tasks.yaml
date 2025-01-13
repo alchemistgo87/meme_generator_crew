@@ -1,6 +1,7 @@
 generate_meme_idea:
   description: >
-    Based on the provided meme idea {meme_topic}:
+    Meme Idea: {meme_topic}
+    Based on the provided meme idea:
     1. Select the optimal visual style and format
     2. Design the layout and composition
     3. Choose appropriate fonts and text placement
